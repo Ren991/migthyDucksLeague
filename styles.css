@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+   
+    
+   
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100vh;
+    
+    background-color:rgba(230, 230, 120, 0.904);
+
+    border: 5px double black;
+    border-bottom: none;
+    background-image: url(assets/image1.jpg);
+    font-family:monospace;
+}
+header{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+.titulo{width: 100%;
+    
+text-align:center;
+font-size:3.5rem;
+font-family:monospace;
+margin-bottom: 1.2rem;
+text-shadow: 2px 2px #f8d226;
+}
+
+
+
+.botonera a{
+   
+    
+    border: 1px rgb(199, 141, 141) solid;
+    width:5rem;
+    font-family:monospace;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.6rem;
+    
+    background-color:rgb(225, 225, 238);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    box-shadow: 5px 5px black;
+    border-radius: .5rem;
+
+ 
+
+}
+.botonera a:hover {background-color: #ffe606;
+    font-weight: bold;}
+#eventos{
+    font-size: 3rem;
+    font-style: italic;
+    font-family:monospace;
+    margin-top: 2rem;
+    text-shadow: 2px 2px #f8d226;
+}
+main{
+    
+    display:flex ;
+    flex-direction: column;
+    height: 40rem;
+}
+
+.logo{width: 15rem;}
+
+#calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    background-color: rgba(233, 233, 227, 0.835);
+    font-size:1.8rem;
+    width: 50%;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+
+}
+
+footer{
+    background-color:rgba(255, 254, 254, 0.856) ;
+    height: 2rem;
+}
+/*About */
+
+.about_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    
+    width: 70%;
+    
+    background-color: rgba(233, 233, 227, 0.835);
+    font-size:1.4rem;
+    
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    padding-bottom: 2rem;
+}
+
+/*contact*/
+.content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(233, 233, 227, 0.835);
+    font-size:1.5rem;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+}
+/* rules*/
+#policy{
+    height: 60rem;
+}
+.rules{
+    width: 68%;
+    margin-top: -1rem;
+    
+    font-size:1.3rem;
+    
+}
+.lista{
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    
+}
+#lista_letras{
+    list-style-type:lower-latin;
+}
+
+/*game info*/
+
+
+.fall_schedule{
+    display: flex;
+    width: 80%;
+    
+}
+
+
+table{
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5rem;
+    border-spacing:1.5rem;
+    
+   
+}
+
+.mapas{
+    display:flex;
+    
+}
+
+.mapas1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-top:1rem;
+    padding-bottom:1rem;
+
+}
+.mapas2{
+    display:flex;
+    flex-direction:column;
+}
+.ciudad{
+    margin-top: 3.5rem;
+}
+
+
+/*Registration form*/
+#form{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+}
+#form  input{
+    border: none;
+  background: none;
+  outline: 0;
+  border-bottom: 3px solid;
+}
+#size {
+    width: 80%;
+   
+}
+
+#send{
+    border: 3px solid;
+    margin-top: 2rem;
+   
+}
+fieldset{
+    border: none;
+    margin: 0.5rem;
+    
+}
+.school{
+    display:flex;
+    flex-direction: row;
+}
+.school1{
+    display:flex;
+    flex-direction: column;
+}
+.school2{
+    display:flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.position{
+    display:flex;
+}
+.position1{
+    display:flex;
+    flex-direction: column;
+}
+.position2{
+    display: flex;
+    flex-direction:column;
+    margin-left: 4.5rem;
+}
+
+.size
+input{
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: solid;
+}
+
+#send{
+    border:2px solid black;
+    width: 40%;
+    height: 4rem;
+    font-size:1.5rem;
+}
+
+#send:hover {
+    background-color: rgb(251, 255, 0);
+    font-size: 1.7rem;
+
+}
+.data{
+    display: flex;
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+
+
+
+/*Show data*/
+
+@media screen and (max-width: 600px ){ 
+  
+    .botonera{ display: flex;
+    flex-direction: column;
+    }
+    .botonera a{
+        width: 15rem;
+    }
+    .about_us{
+        width: 100%;
+    }
+    
+  .content3{
+      width: 100%;
+  }
+  .cronograma{
+      width: 100%;
+      font-size: 1.2rem;
+    
+  } 
+
+  .mapas1{
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .mapas2{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  
+
+    #boton_data
+    .data{
+        display: flex;
+        align-self:center ;
+        width: 100%;
+    }
+
+    #form{
+        
+        width: 100%;
+        
+    }
+  
+}
+
+@media all and (min-width:600px) and (max-width:1023px){
+    .about_us{
+        width: 100%;
+    }
+    
+    .botonera a{
+        width: 100%;
+       
+        font-size: 1.7rem;
+        margin: 0;
+    }
+
+}
